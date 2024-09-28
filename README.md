@@ -259,7 +259,7 @@ The region will be decided as follows:
 - Else, if you have defined a `NEXT_PUBLIC_DEFAULT_REGION` environment variable, it will redirect to that.
 - Else, it will redirect the user to the first region it finds on your Medusa server.
 
-If you want to use the `countryCode` param in your code, there’s two ways to do that:
+If you want to use the `countryCode` param in your code, there’s two ways:
 
 1. On the server in any `page.tsx` - the `countryCode` is in the `params` object:
     
